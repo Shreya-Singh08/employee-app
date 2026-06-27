@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: employee-config
+
+data: 
+  APP_NAME: "Employee Management Application"
+  APP_ENV: "Production"
+  COMPANY: "ABC Technologies"
