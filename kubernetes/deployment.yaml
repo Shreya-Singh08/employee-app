@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: employee-app
-        image: shreya0896/employee-app:v4
+        image: image: 465768367809.dkr.ecr.ap-south-1.amazonaws.com/employee-app:v1
 
         envFrom: 
         - configMapRef: 
